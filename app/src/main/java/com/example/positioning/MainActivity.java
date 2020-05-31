@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 laTxt.setText("Latitude: " + BroadcastListener.LA);
                 loTxt.setText("Longitude: " + BroadcastListener.LO);
-                disTxt.setText("Distance: " + BroadcastListener.DI);
-                spTxt.setText("Speed: " + BroadcastListener.SP);
+                disTxt.setText("Distance: " + BroadcastListener.DI + "km");
+                spTxt.setText("Speed: " + BroadcastListener.SP + "km/h");
             }
         });
 
